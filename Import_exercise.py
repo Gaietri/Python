@@ -1,6 +1,5 @@
-import datetime
+import pandas as pd
 
-import pandas
+df = pd.read_csv("sachin.txt", index_col=0)
 
-import django
 
