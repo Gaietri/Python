@@ -1,10 +1,7 @@
 # Initialize an empty inventory
-inventory = {}
+inventory = {'apples': 5, 'bananas': 3, 'oranges': 2}
 
 # Add items to the inventory
-inventory['apples'] = 5
-inventory['bananas'] = 3
-inventory['oranges'] = 2
 
 # Print the initial inventory
 print("Initial Inventory:", inventory)

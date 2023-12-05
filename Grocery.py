@@ -15,5 +15,5 @@ dairy_items = groceries['Dairy']
 print('Dairy items:', dairy_items)
 
 # Accessing 3rd item in the 'Veggies' category
-Veggies = groceries.get('Veggies', [])[2]
-print("Veggies:", Veggies)
+veggies = groceries.get('Veggies', [])[2]
+print("Veggies:", veggies)
