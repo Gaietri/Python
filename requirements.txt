@@ -3,3 +3,4 @@ django
 datetime
 jupyterhub
 pamela
+flask
