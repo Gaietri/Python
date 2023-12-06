@@ -19,7 +19,7 @@ def get_data():
     return jsonify(response_data)
 
 
-@app.route('/get_result', methods=[ 'POST'])
+@app.route('/get_result', methods=['POST'])
 def get_result():
     # Get the 'name' parameter from the query string
     name = request.args.get('name', 'Anonymous')
