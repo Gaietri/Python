@@ -1,10 +1,15 @@
 # functions
+import logging
+
+logging.log(1, "hello")
 
 def add_numbers(a, b=1):
     return a + b
 
 
 result = add_numbers(a=1, b=3)
+
+
 # sachin = print(result)
 
 
@@ -29,6 +34,7 @@ class Customer:
 
     def debit(self, amount):
         self.balance = self.balance - amount
+
 
 customer1 = Customer("Sachin", 1234, "17/10/89")
 customer2 = Customer("gayatri", 1235, "17/11/89")

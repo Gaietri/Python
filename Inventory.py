@@ -1,4 +1,4 @@
-# Initialize an empty inventory
+# Initialize an empty inventory (key value pair)
 inventory = {'apples': 5, 'bananas': 3, 'oranges': 2}
 
 # Add items to the inventory
