@@ -36,8 +36,8 @@ class Customer:
         self.balance = self.balance - amount
 
 
-customer1 = Customer("Edgar", 1234, "07/10/98")
-customer2 = Customer("Tick", 1235, "10/09/99")
+customer1 = Customer("Sachin", 1234, "17/10/89")
+customer2 = Customer("gayatri", 1235, "17/11/89")
 # customer1 = Customer()
 # customer2 = Customer()
 # customer2.balance = 1
