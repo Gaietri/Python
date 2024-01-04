@@ -22,6 +22,6 @@ fruits.append('pineapple')
 print(fruits)
 
 # treat list as a stack and remove top element
-# popped_el = fruits.pop()
-# print(fruits)
-# print(popped_el)
+popped_el = fruits.pop()
+print(fruits)
+print(popped_el)
