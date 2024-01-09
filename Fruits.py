@@ -4,12 +4,12 @@ fruits = ["apple", "banana", "avocado", "mango"]
 for i in fruits:
     print(i + " milkshake")
 fruits[0]
-print(fruits[0:2:1])    # first two fruits
-print(fruits[0:5])      # first five elements
-print(fruits[1:3])      # start to finish
-print(fruits[:5:2])     # [start:end:step]
-print(fruits[-1::-1])   # reverse
-print(fruits[-1:-3:-2]) # reverse with sequence
+print(fruits[0:2:1])        # first two fruits
+print(fruits[0:5])          # first five elements
+print(fruits[1:3])          # start to finish
+print(fruits[:5:2])         # [start:end:step]
+print(fruits[-1::-1])       # reverse
+print(fruits[-1:-3:-2])     # reverse with sequence
 
 # sort function
 fruits.sort()
