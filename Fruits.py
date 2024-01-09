@@ -9,7 +9,7 @@ print(fruits[0:5])      # first five elements
 print(fruits[1:3])      # start to finish
 print(fruits[:5:2])     # [start:end:step]
 print(fruits[-1::-1])   # reverse
-print(fruits[-1:-3:-2])
+print(fruits[-1:-3:-2]) # reverse with sequence
 
 # sort function
 fruits.sort()
